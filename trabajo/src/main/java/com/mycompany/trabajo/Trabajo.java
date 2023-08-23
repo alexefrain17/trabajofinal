@@ -22,5 +22,14 @@ public class Trabajo {
     }else{
         System.out.println("Respuesta incorrecta. La respuesta correcta es una compañia.");
     }
+     // Pregunta 2
+     System.out.println("¿En qué año se fundó Google?");
+     String respuesta2 = scanner.nextLine();
+     if (respuesta2.equals("1998")) {
+          System.out.println("¡Correcto!");
+     }else{
+          System.out.println("Respuesta incorrecta. La respuesta correcta es 1998.");
+     }
+     scanner.close();
     }
 }
